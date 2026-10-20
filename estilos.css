@@ -1,0 +1,197 @@
+body{
+    background-color: #f4f4f4;
+    margin: 0%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu-navegacion ul li{
+    list-style-type: none;
+}
+
+#principal{
+    background-color: #8B0000;
+    color: #FFFFFF;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-restaurante{
+    width: 100%;
+    text-align: center;
+}
+
+.menu-navegacion ul{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.menu-navegacion a{
+    margin: 5px;
+    background-color: #FFFFFF;
+    color: #8B0000;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.menu-navegacion a:hover{
+    background-color: #8B0000;
+    color: #FFFFFF;
+    border: solid 1px #8B0000;
+}
+
+#imagen-principal{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    filter: brightness(0.9);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: solid 1px lightgray;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+thead{
+    background-color: #8B0000;
+    color: #FFFFFF;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;    
+    border: solid 3px #8B0000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    padding: 12px;
+    border: solid 1px #f2f2f2;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+input:focus{
+    border-color: #8B0000;
+    outline: none;
+    background-color: #fff9f9;
+    
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #8B0000;
+    color: #FFFFFF;
+    border: solid 2px transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+
+button:hover{
+    background-color: #f4f4f4;
+    color: #8B0000;
+    border: solid 2px #8B0000;
+}
+
+#pie-de-pagina{
+    background-color: #8B0000;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#pie-de-pagina p{
+    padding: 5px;
+}
+
+#copyright{
+    font-size: 14px;
+}
+
+/*ESTILO DE menu.html: */
+
+.seccion-carta{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.categoria-titulo {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 40px 0 20px 0;
+    text-align: left;
+    border-bottom: 2px solid #8B0000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.tarjeta-plato{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.info-plato{
+    flex-grow: 1;
+}
+
+.img-plato{
+    width: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.info-plato h4 {
+    margin: 0 0 5px 0; 
+    color: #8B0000;
+    font-size: 1.1rem;
+}
+
+.info-plato p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.precio{
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem;
+}

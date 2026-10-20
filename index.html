@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>El Sabor de la Abuela</title>
+</head>
+<body>
+    <header id="principal">
+        <div class="titulo-restaurante">
+            <h1>EL SABOR DE LA ABUELA</h1>
+            <h2>Cocina tradicional con amor</h2>
+        </div>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Nuestra Carta</a></li>
+                <li><a href="index.html#reservas">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>        
+    
+    <main id="contenido-principal">
+        <img id="imagen-principal" src="imagenes/mesa.jpg" alt="Mesa de madera de un restaurante de cocina tradicional">
+
+        <section id="seccion-menu">
+            <h3>Nuestras Especialidades</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plato</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cocido Madrileño</td>
+                        <td>15€</td>
+                    </tr>
+                     <tr>
+                        <td>Paella de Marisco</td>
+                        <td>18€</td>
+                    </tr>
+                     <tr>
+                        <td>Tortilla de Patatas</td>
+                        <td>10€</td>
+                    </tr>
+                     <tr>
+                        <td>Postre de la Casa</td>
+                        <td>5€</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="reservas">
+            <h3>Reservas</h3>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" name="fecha">
+                <label for="comensales">Comensales</label>
+                <input type="number" id="comensales" name="comensales">
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer id="pie-de-pagina">
+        <p>🖈 Calle Falsa, 123</p>
+        <p>🕻 Teléfono: +34 900 000 000</p>
+        <p id = "copyright">&copy;El Sabor de la Abuela</p>
+    </footer>
+   
+</body>
+</html>
